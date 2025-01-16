@@ -1,0 +1,235 @@
+html {
+    background-image: linear-gradient(#205db7, #91f38e);
+}
+
+body {
+    background-image: url();
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'roboto' , serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    min-height: 300px;
+    width: 1024px;
+}
+
+header {
+    align-items: center;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 80px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    min-height: 300px;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1
+}
+
+.herobox2 img {
+    border-radius: 12px;
+    height: 250px;
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cards i {
+    font-size: 75px;
+    margin-top: 12px;
+}
+
+.web-dev {
+    background-color: #91f38e;
+    background-image: url();
+    background-position: bottom;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 5px;
+    min-height: 250px;
+    width: 50%;
+}
+
+.fit-tech {
+    background-color: #91f38e;
+    background-image: url();
+    background-position: bottom;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 5px;
+    min-height: 250px;
+    width: 50%;
+}
+
+/* Pricing Cards */
+/* Container Styling */
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem auto;
+    max-width: 1024px;
+    
+}
+
+/* Card Styling */
+.pricing-card {
+    background-color: #205db7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    flex: 1 1 33%;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pricing and Button Styling */
+.price {
+    font-size: 1.5rem;
+    color: #7dfcff;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #58a7fc;
+}
+
+.btn-port {
+    background-color: #007bff;
+}
+
+
+/*Font Sizes */
+h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+h3 {
+    background-color: #205db7;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons Section */
+.mybutton {
+    background-color: #007bff;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    margin-left: 125px;
+    padding: 5px 15px;
+    width: 33%;
+    text-align: center;
+}
+
+.web-dev .mybutton {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.fit-tech .mybutton {
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.mybutton:hover {
+    background-color: #58a7fc;
+    color: black;
+    transition-duration: 500ms;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav a.mybutton {
+    margin-left: 10px;
+}
+
+/* Navigation Section */
+.navbutton {
+    display: inline-block;
+    font-family: 'Playfair Display' , serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbutton a:hover {
+    background-color: #60fa5b;
+    border-radius: 12px;
+    color: black;
+    padding: 2px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    min-height: 80px;
+    text-align: center;
+}
+

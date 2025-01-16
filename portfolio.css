@@ -1,0 +1,78 @@
+.software-container {
+    background-color: rgba(0, 0, 0, 0.49);
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    width: 1024px;
+}
+
+.software-container p {
+    font-weight: bold;
+}
+
+.fitness-container {
+    background-color: rgba(0, 0, 0, 0.49);
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.fitness-container p {
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.web-dev {
+    color: black;
+}
+
+.web-dev1 {
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 5px;
+    width: 50%;
+}
+
+.fit-tech1 {
+    background-image: url(images/personal\ training.jpeg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 5px;
+    width: 50%;
+}
+
+.web-dev2 {
+    background-image: url(images/Digital\ Clock.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 5px;
+    width: 50%;
+}
+
+.fit-tech2 {
+    background-image: url(images/Digital\ Clock.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 5px;
+    width: 50%;
+}
+
+.fit-tech {
+    color: black;
+}
